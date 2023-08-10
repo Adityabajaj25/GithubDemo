@@ -17,8 +17,9 @@ public class LoginTestclass extends BaseClass {
         Assert.assertEquals(expectedUrl, actualUrl);
     }
 
+    @Test
     public void login_ExcelData(String username, String password){
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-
+        System.out.println("This is a new comment");
     }
 }
