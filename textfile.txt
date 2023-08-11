@@ -1,1 +1,3 @@
 new text file
+
+//Added a new comment in text files.
